@@ -1,5 +1,5 @@
 # Housing Price Prediction
-A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
+A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia.
 
 
 
@@ -8,7 +8,6 @@ A US-based housing company named Surprise Housing has decided to enter the Austr
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -25,7 +24,7 @@ The company wants to know:
 ## Conclusions
 * Ridge Regression model performs best with an alpha (lambda) value of 20. Ridge regression model has a test r2 score of 86.56%.
 * Lasso Regression model performs best with an alpha (lambda) value of 0.001. Lasso regression model has a test r2 score of 87.94%.
-* We could see that the test R2 score is highest with the lasso regression model. Also, this model is better than the ridge regression model because the lasso model reduces the number of features making the model simpler by retaining only the significant features.
+* We could see that the test r2 score is highest with the lasso regression model. Also, this model is better than the ridge regression model because the lasso model reduces the number of features making the model simpler by retaining only the significant features.
 
 The Most significant variables that have a positive effect on the price of the house are:
 * Exterior1st - Exterior covering on house
